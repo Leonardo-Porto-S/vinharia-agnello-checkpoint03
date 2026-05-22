@@ -44,3 +44,67 @@ header p {
   text-transform: uppercase;
   opacity: 0.65;
 }
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem 6rem;
+}
+ 
+section {
+  margin-bottom: 3.5rem;
+}
+ 
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--vinho);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--borda);
+}
+ 
+p {
+  font-size: 0.92rem;
+  color: #4a2a34;
+  margin-bottom: 0.75rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+ 
+.card {
+  background: #fff;
+  border: 1px solid var(--borda);
+  border-top: 2px solid var(--ouro);
+  padding: 1.25rem 1.5rem;
+  transition: box-shadow 0.2s;
+}
+ 
+.card:hover {
+  box-shadow: 0 4px 16px rgba(92, 16, 32, 0.08);
+}
+ 
+.card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  color: var(--vinho);
+  margin-bottom: 0.3rem;
+}
+ 
+.card p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+ 
+.card code {
+  font-size: 0.75rem;
+  background: var(--creme);
+  padding: 0.1rem 0.4rem;
+  color: var(--vinho);
+}
