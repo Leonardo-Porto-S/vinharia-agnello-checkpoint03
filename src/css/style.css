@@ -108,3 +108,35 @@ p {
   padding: 0.1rem 0.4rem;
   color: var(--vinho);
 }
+
+.instrucao {
+  background: var(--vinho);
+  color: #f0e4d4;
+  padding: 2rem 2.5rem;
+  font-size: 0.88rem;
+}
+ 
+.instrucao h2 {
+  color: var(--ouro);
+  border-color: rgba(184, 147, 90, 0.3);
+}
+ 
+.instrucao p { color: #e8d8c8; }
+ 
+.instrucao strong { color: var(--ouro); font-weight: 400; }
+ 
+/* Footer */
+footer {
+  background: #1a0810;
+  color: #8a6050;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+ 
+@media (max-width: 600px) {
+  .cards { grid-template-columns: 1fr; }
+  main { padding: 2.5rem 1.2rem 4rem; }
+}
