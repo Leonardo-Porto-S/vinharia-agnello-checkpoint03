@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400&display=swap');
+ 
+:root {
+  --vinho:  #5c1020;
+  --ouro:   #b8935a;
+  --creme:  #f7f2ea;
+  --texto:  #2a1018;
+  --borda:  #ddd0bc;
+}
+ 
+* { margin: 0; padding: 0; box-sizing: border-box; }
+ 
+body {
+  background: var(--creme);
+  color: var(--texto);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+header {
+  background: var(--vinho);
+  color: #f7f2ea;
+  padding: 4rem 2rem 3rem;
+  text-align: center;
+}
+ 
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+ 
+header h1 em {
+  font-style: italic;
+  color: var(--ouro);
+}
+ 
+header p {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
